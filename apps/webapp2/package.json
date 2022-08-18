@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt generate",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "prepare": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.8"
+  }
+}

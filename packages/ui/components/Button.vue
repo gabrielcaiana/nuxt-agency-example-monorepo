@@ -9,13 +9,13 @@
 </script>
 
 <template>
-  <button :disabled="disabled" @click="$emit('click:mybutton', 'hello from button')">
+  <button class="btn" :disabled="disabled" @click="$emit('click:mybutton', 'hello from button')">
     <slot />
   </button>
 </template>
 
 <style scoped>
-  .button {
+  .btn {
     padding: 1rem;
     border: none;
     background-color: aquamarine;

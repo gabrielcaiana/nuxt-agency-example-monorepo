@@ -27,4 +27,14 @@ describe('UI Button', () => {
     // @ts-ignore
     expect(wrapper.emitted()['click:mybutton'][0][0]).toBe('hello from button')
   })
+
+  it('accepts a default slot', () => {
+    const wrapper = mount(Button, {
+      slots: {
+        default: 'hello world!!!'
+      }
+    })
+
+    expect(wrapper.html()).toContain('hello world!!!')
+  })
 })

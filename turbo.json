@@ -13,6 +13,9 @@
     },
     "test": {
       "cache": false
+    },
+    "prepare": {
+      "cache": false
     }
   }
 }

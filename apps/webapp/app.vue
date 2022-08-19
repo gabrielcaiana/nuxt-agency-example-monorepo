@@ -1,5 +1,9 @@
+<script setup>
+  const log = (value) => console.log(value)
+</script>
+
 <template>
   <div>
-    <NuxtWelcome />
+   <AgencyButton @click:mybutton="log('hello word')">webapp</AgencyButton>
   </div>
 </template>

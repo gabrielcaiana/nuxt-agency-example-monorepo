@@ -11,7 +11,8 @@
     "dev": "turbo run dev --parallel",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "test": "turbo run test",
-    "test:ui": "turbo run test --filter=@agency/ui"
+    "test:ui": "turbo run test --filter=@agency/ui",
+    "prepare": "turbo run prepare"
   },
   "devDependencies": {
     "prettier": "latest",
